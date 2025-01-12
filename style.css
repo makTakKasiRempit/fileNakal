@@ -18,8 +18,7 @@ body {
   background: #004154;
 }
 
-/* NAVBAR */
-
+/*----------------------NAVBAR-------------------------*/
 .row {
   display: flex;
   justify-content: space-between;
@@ -61,7 +60,7 @@ body {
   color: grey; /* color of the bag*/
 }
 
-/* Search container styles */
+/*----------------------SEARCH-------------------------*/
 .search-container {
   display: flex;
   align-items: center;
@@ -113,8 +112,7 @@ header::after {
   transform: translate(-50%);
 }
 
-/* ------------------------landing page ahahahah------------*/
-
+/*----------------------LANDING PAGE-------------------------*/
 .col-2 {
   flex-basis: 45%;
   text-align: center; /* penting because we need the items to be center aligned */
@@ -192,15 +190,12 @@ header::after {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/*--------footer---------
-
+/*----------------------FOOTER-------------------------*/
 .font form {
   background-color: #ffffff;
-  border: 2px solid black;
 }
-*/
 
-/* Responsive Design */
+/*----------------------RESPONSIVE-------------------------*/
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;

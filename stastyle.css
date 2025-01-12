@@ -47,16 +47,10 @@ body {
   padding-bottom: 30px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Gotu", serif;
   font-weight: bold;
-  background-color: #eaf4f5;
+  background-color: #FFFFFF;
   color: #333;
 }
 
@@ -65,11 +59,6 @@ body {
   height: 40px;
   width: 100%;
   background: #004154;
-}
-
-header {
-  color: #f30000;
-  background-color: #fff;
 }
 
 /*------------------NAV BAR-------------------*/
@@ -108,7 +97,7 @@ header {
   color: grey; /* color of the bag*/
 }
 
-/* Search container styles */
+/*-----------------SEARCH-----------------*/
 .search-container {
   display: flex;
   align-items: center;
@@ -161,7 +150,7 @@ header::after {
 }
 
 
-/* -------------------------- POSTER--------------------------------------*/
+/* -------------------------- POSTER-----------------------*/
 .poster {
   flex: 1;
   background: #ffffff;
@@ -252,7 +241,7 @@ h4 {
 
 .stationary-options .col-4 {
   margin: 0 20px;
-  background: #dce3e4;
+  background: #eaf4f5;
   cursor: pointer;
   box-shadow: 0 2px 10px rgba(194, 66, 66, 0.1);
   transition: transform 0.5s;
@@ -263,6 +252,8 @@ h4 {
   transition: transform 0.5s;
 }
 
+
+/*--------------------STAR----------------------*/
 .rating {
   display: flex;
   justify-content: center;
@@ -278,8 +269,7 @@ h4 {
   transform: translateY(-5px);
 }
 
-/*-------------addition buttons-----------*/
-/*--------number of stationary-------------*/
+/*-------------ADDITION BUTTONS-----------*/
 .quantity {
   display: flex;
   justify-content: center;

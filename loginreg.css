@@ -95,9 +95,11 @@ button.btn-signup:focus {
   text-decoration: underline;
 }
 
+/*-----------------RESPONSIVE----------------*/
 @media (max-width: 600px) {
   .login-form,
   .signup-form {
     width: 80%;
   }
 }
+

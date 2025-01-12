@@ -23,7 +23,7 @@
     background-color: #fff;
   }
   
-  /* MNAVBARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+  /*----------------------NAVBAR-------------------------*/
   .containerthatcontains {
     display: flex;
     justify-content: space-between;
@@ -59,8 +59,8 @@
     color: grey; /* color of the bag*/
   }
   
-  /* Search container styles */
-  .search-container {
+/*----------------------SEARCH--------------------------*/
+.search-container {
     display: flex;
     align-items: center;
     background: #eaf4f5;
@@ -111,8 +111,8 @@
     transform: translate(-50%);
   }
   
-  /*------------main body-------------------*/
-  .product-detail {
+/*----------------------MAIN BODY--------------------------*/
+.product-detail {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -152,8 +152,7 @@
     margin: 10px 0;
   }
   
-  /*----------------options-----------------------*/
-  
+  /*----------------POLAROID-----------------------*/
   #orderForm {
     display: flex;
     flex-direction: column;
@@ -182,8 +181,7 @@
     border-color: #004154; 
   }
   
-  /*-------------addition buttons-----------*/
-/*--------number of water-------------*/
+  /*-------------ADDITION BUTTONS-----------*/
 .quantity {
   display: flex;
   justify-content: center;
@@ -216,7 +214,7 @@
   background: transparent;
 }
 
-  /*-adddddddddd to cart---------------button*/
+/*----------------------ADD TO CART--------------------------*/
   .sideinfo{
     display: flex;
     flex-direction: column;

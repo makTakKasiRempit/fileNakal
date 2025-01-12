@@ -23,7 +23,7 @@ header {
   background-color: #fff;
 }
 
-/* MNAVBARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+/*----------------------NAVBAR--------------------------*/
 .containerthatcontains {
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@ header {
   color: grey; /* color of the bag*/
 }
 
-/* Search container styles */
+/*----------------------SEARCH--------------------------*/
 .search-container {
   display: flex;
   align-items: center;
@@ -112,8 +112,7 @@ header::after {
   transform: translate(-50%);
 }
 
-/*------------service options--------------------- */
-
+/*----------------------SERVICE OPTIONS--------------------------*/
 #services {
   background: #fff;
   text-align: center;
